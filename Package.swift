@@ -124,7 +124,7 @@ var targets: [PackageDescription.Target] = [
 ]
 
 let package = Package(
-    name: "swift-nio",
+    name: "cba-swift-nio",
     products: [
         .library(name: "NIOCore", targets: ["NIOCore"]),
         .library(name: "NIO", targets: ["NIO"]),
